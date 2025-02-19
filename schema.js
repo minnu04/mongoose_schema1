@@ -16,9 +16,9 @@ const ProfileSchema=new mongoose.Schema({
         ref: 'User'},
     firstname:{type:String,
               required:true},
-    firstname:{type:String,
+    lastname:{type:String,
               required:true},
-    firstname:{type:Number,
+    age:{type:Number,
                required:true}
 })
 const TrackingSchema=new mongoose.Schema({
